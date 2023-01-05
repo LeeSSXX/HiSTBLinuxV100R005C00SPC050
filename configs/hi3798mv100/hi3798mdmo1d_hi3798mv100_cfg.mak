@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # SDK version: KERNELVERSION
-# Wed Jul 26 21:12:17 2017
+# Thu Jan  5 14:14:31 2023
 #
 
 #
@@ -274,7 +274,23 @@ CFG_HI_PROC_WRITE_SUPPORT=y
 #
 # CFG_HI_ADVCA_SUPPORT is not set
 CFG_HI_ZLIB_SUPPORT=y
-# CFG_HI_WIFI_SUPPORT is not set
+CFG_HI_WIFI_SUPPORT=y
+
+#
+# WiFi Device Type
+#
+CFG_HI_WIFI_DEVICE_RTL8188EUS=y
+# CFG_HI_WIFI_DEVICE_RTL8192EU is not set
+# CFG_HI_WIFI_DEVICE_RTL8188FU is not set
+# CFG_HI_WIFI_DEVICE_RTL8812AU is not set
+# CFG_HI_WIFI_DEVICE_RTL8822BU is not set
+# CFG_HI_WIFI_DEVICE_MT76X2U is not set
+
+#
+# WiFi Working Mode
+#
+CFG_HI_WIFI_MODE_STA=y
+CFG_HI_WIFI_MODE_AP=y
 CFG_HI_NTFS_SUPPORT=y
 CFG_HI_NTFS_TOOLS_SUPPORT=y
 CFG_HI_EXFAT_SUPPORT=y
@@ -506,3 +522,7 @@ CFG_HI_VENC_SUPPORT=y
 # TEE
 #
 # CFG_HI_TEE_SUPPORT is not set
+# CFG_TVP_MEM_512M is not set
+# CFG_TVP_MEM_1G is not set
+# CFG_TVP_MEM_1_5G is not set
+# CFG_TVP_MEM_2G is not set
