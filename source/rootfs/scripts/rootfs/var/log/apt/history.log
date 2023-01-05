@@ -1,0 +1,15 @@
+
+Start-Date: 2023-01-04  14:06:49
+Commandline: apt install ca-certificates --reinstall
+Reinstall: ca-certificates:armhf (20190110ubuntu1)
+End-Date: 2023-01-04  14:07:31
+
+Start-Date: 2023-01-04  14:10:59
+Commandline: apt install vim -y
+Install: alsa-topology-conf:armhf (1.2.2-1, automatic), sound-theme-freedesktop:armhf (0.8-2ubuntu1, automatic), alsa-ucm-conf:armhf (1.2.2-1, automatic), libasound2-data:armhf (1.2.2-2.1, automatic), libogg0:armhf (1.3.4-0ubuntu1, automatic), libpython3.8:armhf (3.8.2-1ubuntu1, automatic), libvorbisfile3:armhf (1.3.6-2ubuntu1, automatic), libltdl7:armhf (2.4.6-14, automatic), vim-runtime:armhf (2:8.1.2269-1ubuntu5, automatic), vim:armhf (2:8.1.2269-1ubuntu5), libtdb1:armhf (1.4.2-3build1, automatic), libasound2:armhf (1.2.2-2.1, automatic), libgpm2:armhf (1.20.7-5, automatic), libvorbis0a:armhf (1.3.6-2ubuntu1, automatic), libcanberra0:armhf (0.30-7ubuntu1, automatic)
+End-Date: 2023-01-04  14:11:05
+
+Start-Date: 2023-01-04  14:11:09
+Commandline: apt-get install busybox net-tools ethtool
+Install: net-tools:armhf (1.60+git20180626.aebd88e-1ubuntu1), busybox-static:armhf (1:1.30.1-4ubuntu6), ethtool:armhf (1:5.4-1)
+End-Date: 2023-01-04  14:11:10

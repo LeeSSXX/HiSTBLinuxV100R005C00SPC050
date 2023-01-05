@@ -1,0 +1,16 @@
+8ac01f56b18a8b4026f5bc479294b86f  bin/busybox
+bd43a9307427bf602d73718268dbfec2  usr/share/doc/busybox-static/changelog.Debian.gz
+e4a6f98fa82c414802eae075f1e6e837  usr/share/doc/busybox-static/copyright
+38d0a29b507751e080407e9e80c01c57  usr/share/doc/busybox-static/examples/mdev.conf
+7275264ac0f83bd8f137b71353c2cc43  usr/share/doc/busybox-static/examples/mdev.conf.change_blockdev.sh
+d800f15acc41b083fdce49a8361c75e1  usr/share/doc/busybox-static/examples/mdev_fat.conf.gz
+16a16455940fb047a2cc70a0c4494521  usr/share/doc/busybox-static/examples/udhcp/sample.bound
+8402c58e8c1bd0d99e0fa1abdd123280  usr/share/doc/busybox-static/examples/udhcp/sample.deconfig
+727b1ffed2b2d82a0bf863fa8d5be019  usr/share/doc/busybox-static/examples/udhcp/sample.nak
+16a16455940fb047a2cc70a0c4494521  usr/share/doc/busybox-static/examples/udhcp/sample.renew
+f87d4125aef75b7cc8e50d58be396ed2  usr/share/doc/busybox-static/examples/udhcp/sample.script
+c855e140a29c487890e4dba2d753942e  usr/share/doc/busybox-static/examples/udhcp/simple.script
+cdd71a2603e7e69bf1559d0d5d55c44d  usr/share/doc/busybox-static/examples/udhcp/udhcpd.conf.gz
+a2bf2460962dc2c1a2986833b744ab6d  usr/share/doc/busybox-static/mdev.txt.gz
+923ceec813f3e45f099767d6f5e02107  usr/share/doc/busybox-static/syslog.conf.txt
+d391a9a809d529709ee1386c0bcba23a  usr/share/man/man1/busybox.1.gz

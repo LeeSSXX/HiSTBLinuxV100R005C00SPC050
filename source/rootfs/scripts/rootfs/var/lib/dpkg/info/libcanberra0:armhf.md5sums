@@ -1,0 +1,7 @@
+e641807ea9f598d5b736a62b1c4bef5d  usr/lib/arm-linux-gnueabihf/libcanberra-0.30/libcanberra-alsa.so
+9087228238b2f4f36ad81c1bf8bbdcce  usr/lib/arm-linux-gnueabihf/libcanberra.so.0.2.5
+f011d3c88113ca69a5e093c8d050e48e  usr/share/doc/libcanberra0/README.Debian
+b70806e71cde511ad40751b08bf21bca  usr/share/doc/libcanberra0/README.gz
+2345e649c0d4479e0a50bae0ddf37fb9  usr/share/doc/libcanberra0/changelog.Debian.gz
+ee9552e21635b25ba74d5069d5df57f3  usr/share/doc/libcanberra0/copyright
+1605ce86605ad8ad28d6340eb4b0ceed  usr/share/lintian/overrides/libcanberra0

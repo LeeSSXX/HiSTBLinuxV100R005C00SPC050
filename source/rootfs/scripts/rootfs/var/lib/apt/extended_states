@@ -1,0 +1,56 @@
+Package: alsa-topology-conf
+Architecture: armhf
+Auto-Installed: 1
+
+Package: sound-theme-freedesktop
+Architecture: armhf
+Auto-Installed: 1
+
+Package: alsa-ucm-conf
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libasound2-data
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libogg0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpython3.8
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libvorbisfile3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libltdl7
+Architecture: armhf
+Auto-Installed: 1
+
+Package: vim-runtime
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtdb1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libasound2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgpm2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libvorbis0a
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcanberra0
+Architecture: armhf
+Auto-Installed: 1
+
