@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # SDK version: KERNELVERSION
-# Thu Jan  5 14:14:31 2023
+# Wed Jan  4 17:16:13 2023
 #
 
 #
@@ -41,7 +41,7 @@ CFG_HI_CPU_ARCH=arm
 CFG_ARM_HISTBV310_LINUX=y
 # CFG_ARM_HISTBV320_LINUX is not set
 CFG_HI_ARM_TOOLCHAINS_NAME=arm-histbv310-linux
-CFG_HI_OUT_DIR=hi3798mdmo1d
+CFG_HI_OUT_DIR=hi3798mdmo1a
 # CFG_HI_LOADER_SUPPORT is not set
 # CFG_HI_OPTM_SIZE_SUPPORT is not set
 
@@ -187,7 +187,7 @@ CFG_HI_VO_VDAC_LC_CIRCUIT=y
 #
 # Boot Regfile Config
 #
-CFG_HI_BOOT_REG_NAME=hi3798mdmo1d_hi3798mv100_ddr3_2gbyte_8bitx4_4layers_emmc.reg
+CFG_HI_BOOT_REG_NAME=hi3798mdmo1a_hi3798mv100_ddr3_1gbyte_16bitx2_4layers_emmc.reg
 
 #
 # Boot
@@ -280,10 +280,10 @@ CFG_HI_WIFI_SUPPORT=y
 # WiFi Device Type
 #
 CFG_HI_WIFI_DEVICE_RTL8188EUS=y
-# CFG_HI_WIFI_DEVICE_RTL8192EU is not set
-# CFG_HI_WIFI_DEVICE_RTL8188FU is not set
-# CFG_HI_WIFI_DEVICE_RTL8812AU is not set
-# CFG_HI_WIFI_DEVICE_RTL8822BU is not set
+CFG_HI_WIFI_DEVICE_RTL8188FU=y
+CFG_HI_WIFI_DEVICE_RTL8192EU=y
+CFG_HI_WIFI_DEVICE_RTL8812AU=y
+CFG_HI_WIFI_DEVICE_RTL8822BU=y
 # CFG_HI_WIFI_DEVICE_MT76X2U is not set
 
 #
@@ -522,7 +522,3 @@ CFG_HI_VENC_SUPPORT=y
 # TEE
 #
 # CFG_HI_TEE_SUPPORT is not set
-# CFG_TVP_MEM_512M is not set
-# CFG_TVP_MEM_1G is not set
-# CFG_TVP_MEM_1_5G is not set
-# CFG_TVP_MEM_2G is not set
