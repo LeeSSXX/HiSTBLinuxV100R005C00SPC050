@@ -1,6 +1,7 @@
-## 1. For  SDK usage and development environment building,please refer <Linux Development Environment User Guide> for detail.
+## 1. SDK 依赖（Ubuntu 18.04）
+	apt-get install gcc make gettext zlib1g-dev libncurses5-dev bison flex bc texinfo tree cmake flex
 
-## 2. Config kernel
+## 2. 配置内核
 	cd $sdk_path/source/kernel/linux-4.4.y
 	make ARCH=arm hi3798mv100_defconfig
 	make ARCH=arm menuconfig
@@ -8,13 +9,14 @@
 	cp defconfig arch/arm/configs/hi3798mv100_defconfig
 	make distclean
 
-## 3. Compile SDK
-	2.1 "source $sdk_path/env.sh" must be executed before compiling the SDK.
-	2.2 "cp configs/$chip_type/xx_cfg.mak cfg.mak" can use to config the SDK before compile it. customer can customize the SDK configuration by "make menuconfig".
-	2.3 Customer can get usage information of compiling command by execute "make help" .
-    Notes: SDKs support multi-threaded compilation, but when compiling SDKs on virtual machines or servers with lower performance, it is recommended that single-threaded compilation be conducted or the number of compilation threads be designated. Single-threaded compilation: make $target; two-threaded compilation: make $target -j 2.
+## 3. 编译 SDK
+	cd HiSTBLinuxV100R005C00SPC050
+	source env.sh
+	cp configs/$chip_type/xx_cfg.mak cfg.mak
+ 	make menuconfig
+	make build -j 8
 
-## 4. Customize bootargs
+## 4. 自定义 bootargs
 
 	4.1 The default bootargs.bin will be generate in $out_dir/image/ according to the bootargs_xx.txt .
 	    bootargs_xx.txt is in $sdk_path/configs/$chip_type/prebuilts (this path may change in future ,customer can execute "find . -name bootargs* " in $sdk_path/configs to search it) 
